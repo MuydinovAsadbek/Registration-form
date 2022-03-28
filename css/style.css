@@ -1,8 +1,8 @@
 /* CUSTOM PROPS */
 :root {
-  --primary: #ea625c;
-  --text-color:#333;
-  --main-font:'Roboto', 'Arial', sans-serif;
+  --primary: #555;
+  --text-color:#fff;
+  --main-font:'Inter', 'Arial', sans-serif;
 }
 
 /* GLOBAL */
@@ -30,9 +30,9 @@ body {
   margin: 0;
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
-  background-color: #fff;
+  background-color: #e7e7e7;
 }
 
 img {
@@ -43,9 +43,72 @@ img {
  /* CONTAINER */
  .container {
   width: 100%;
-  max-width: 1100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* FORM-HERO */
+.global-wrapper {
+  display: flex;
+  flex-grow: 1;
+  padding-top: 80px;
+  padding-bottom: 73px;
+}
+.hero {
+  width: 100%;
+  max-width: 570px;
+  margin: 0;
+  border-radius: 20px;
+  background-image: url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+}
+.hero-content {
+  width: 100%;
+  width: 395px;
+  padding-bottom: 203px;
+  padding: 60px 121px 180px 60px;
+  }
+.hero-top-btn {
+display: inline-block;
+padding: 5px 15px;
+margin: 0;
+margin-bottom: 65px;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+border: 1px solid var(--text-color);
+border-radius: 41px;
+text-decoration: none;
+color: var(--text-color);
+}
+.hero-heading {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: var(--text-color);
+}
+.hero-info {
+  margin: 0;
+  line-height: 26px;
+  color: var(--text-color);
+}
+
+.hero-bottom-btn {
+  width: 100%;
+  max-width: 570px;
+  padding: 28px 133px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  background: #4dc490;
+  border-radius: 0px 0px 20px 20px;
+  text-decoration: none;
+  color: var(--text-color);
 }
