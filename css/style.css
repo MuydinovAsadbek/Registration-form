@@ -63,6 +63,7 @@ img {
   max-width: 570px;
   margin: 0;
   border-radius: 20px;
+  background-color: #000;
   background-image: url("../img/Rectangle.png");
   background-repeat: no-repeat;
 }
